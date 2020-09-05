@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>https://codesailboat.github.io/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Blogs on My New Hugo Site</title>
+    <link>https://codesailboat.github.io/blog/</link>
+    <description>Recent content in Blogs on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 30 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://codesailboat.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://codesailboat.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo博客搭建</title>
-      <link>https://codesailboat.github.io/post/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://codesailboat.github.io/blog/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://codesailboat.github.io/post/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
+      <guid>https://codesailboat.github.io/blog/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%AD%A6%E4%B9%A0/</guid>
       <description>一、软件安装 1.安装hugo   GitHub官网的Hugo Releases下载对应版本
 Hugo Releases： https://github.com/gohugoio/hugo/releases windows版本已经是成品，直接下载解压，在环境变量path里添加文件夹路径即可。注意不要直接新建，正确流程如下:
 变量path -&amp;gt; 编辑 -&amp;gt; 新建 -&amp;gt; 选择文件夹路径   2.安装git   官网下载较慢，可自己百度下载   二、本地创建博客 1.创建站点   打开命令行（win+R，输入cmd),移动目录到希望保存博客网页的文件夹 命令行中输入 hugo new site myblog

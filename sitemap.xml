@@ -28,19 +28,22 @@
   </url>
   
   <url>
-    <loc>https://codesailboat.github.io/tags/blog/</loc>
+    <loc>https://codesailboat.github.io/blog/</loc>
+    <lastmod>2019-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codesailboat.github.io/tags/githubblog/</loc>
+    <lastmod>2019-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codesailboat.github.io/blog/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2019-10-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://codesailboat.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://codesailboat.github.io/post/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
-  </url>
-  
-  <url>
-    <loc>https://codesailboat.github.io/post/</loc>
   </url>
   
 </urlset>
