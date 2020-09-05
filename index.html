@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.74.3" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>My New Hugo Site</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<link rel="alternate" type="application/rss+xml" href="/index.xml" title="My New Hugo Site">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="My New Hugo Site" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">My New Hugo Site</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main list" role="main">
+	<article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/blog/14_%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80/" rel="bookmark">
+			14_最长公共前缀
+			</a>
+		</h3>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		解题思路①   按列进行比较，以第一行为基准，当第一行某列和其他行该列字符不相同时，前面几列即为最长公共前缀。将第一行该列字符置为'\0'(字符串结束标志)，而后return
+  程序开始应该判断字符串数组是否为空，可以判断长度是否为零，为零return空字符串
+  程序结束应该写return，因为当第一行被其他行包含时，循环中的return并不会执行
+  代码 char * longestCommonPrefix(char ** strs, int strsSize){ int i; int j; if( strsSize == 0) { return &#34;&#34;; } for(j=0; *(*strs+j) != &#39;\0&#39;; j++ ) //列  { for( i=1; i&lt;strsSize; i++) //行  { if( *(*strs+j) != *(*(strs+i)+j) ) { *(*strs+j) = &#39;\0&#39;; return *strs; } } } return *strs; } 解题思路②  待补充  END  
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/blog/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%AD%A6%E4%B9%A0/" rel="bookmark">
+			Hugo博客搭建
+			</a>
+		</h3>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		一、软件安装 1.安装hugo   GitHub官网的Hugo Releases下载对应版本
+Hugo Releases： https://github.com/gohugoio/hugo/releases windows版本已经是成品，直接下载解压，在环境变量path里添加文件夹路径即可。注意不要直接新建，正确流程如下:
+变量path -&gt; 编辑 -&gt; 新建 -&gt; 选择文件夹路径   2.安装git   官网下载较慢，可自己百度下载   二、本地创建博客 1.创建站点   打开命令行（win+R，输入cmd),移动目录到希望保存博客网页的文件夹 命令行中输入 hugo new site myblog
+其中 myblog 为文件夹名，myblog文件夹 即为博客根目录   2.创建博客   移动到myblog目录下，命令行中输入: hugo new first.md
+first为文件名 用markdown语言进行博客编写   3.下载并设置博客主题   主题库地址： https://themes.gohugo.io 命令行目录移至博客根目录，命令行中输入对应路径进行克隆，具体信息可在主题下方直接复制即可。
+以m10c主题为例，： 复制输入： git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
+注: 执行此操作之前确保git成功安装并配置成功，在命令行初始目录下输入 git 有输出即配置成功。   4.
+	</div>
+</article>
+</main>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2020 My New Hugo Site.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>
