@@ -90,7 +90,8 @@ Hugo Releases： <a href="https://github.com/gohugoio/hugo/releases">https://git
 <h3 id="4本地启动博客">4.本地启动博客</h3>
 <blockquote>
 <ul>
-<li>博客根目录命令行中输入：<code>hugo server -t m10c --buildDrafts</code></li>
+<li>博客根目录下，在命令行中输入：<br>
+<code>hugo server -t m10c --buildDrafts</code></li>
 </ul>
 </blockquote>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#a6e22e">Web</span> <span style="color:#a6e22e">Server</span> <span style="color:#a6e22e">is</span> <span style="color:#a6e22e">available</span> <span style="color:#a6e22e">at</span> <span style="color:#a6e22e">http</span><span style="color:#f92672">:</span><span style="color:#75715e">//localhost:1313/ (bind address 127.0.0.1)
@@ -128,9 +129,32 @@ Hugo Releases： <a href="https://github.com/gohugoio/hugo/releases">https://git
 <li>打开网页输入网址：<code>用户名.github.io</code> ，可以看到博客网页。</li>
 </ul>
 </blockquote>
+<h2 id="hugo博客的其他事项">hugo博客的其他事项</h2>
+<ul>
+<li>
+<p>主题修改：在根目录下的<code>config.toml</code>文件中修改，第一次需要添加，例如：<code>theme = &quot;mainroad&quot;</code></p>
+</li>
+<li>
+<p>上传内容：最终上传到GitHub的只是<code>public</code>目录下的内容。如果使用GitHubDesktop不可以把整个文件拷贝到本地库中，只是文件中的内容</p>
+</li>
+<li>
+<p>博客部署到GitHub时，仓库最好是空的，否则可能不允许合并到主干，需要另外新建分支，再进行上传</p>
+</li>
+</ul>
 <hr>
 
 		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/githubblog/" rel="tag">GitHub、Blog</a>
+		</li>
+	</ul>
+</div>
+		</footer>
 	</article>
 </main>
 
