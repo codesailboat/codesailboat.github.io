@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>C on Welcome to My Blog!</title>
-    <link>https://codesailboat.github.io/tags/c/</link>
-    <description>Recent content in C on Welcome to My Blog!</description>
+    <title>LeetCode on Welcome to My Blog!</title>
+    <link>https://codesailboat.github.io/tags/leetcode/</link>
+    <description>Recent content in LeetCode on Welcome to My Blog!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://codesailboat.github.io/tags/c/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://codesailboat.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>C 学习</title>
-      <link>https://codesailboat.github.io/study/c%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://codesailboat.github.io/study/c%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
-      <description>1. extern &amp;ldquo;C&amp;rdquo;  &amp;lsquo;extern &amp;ldquo;C&amp;rdquo; &amp;lsquo;和&amp;rsquo;__cplusplus&amp;rsquo;的主要作用就是都是为了实现C++与C兼容,使C++代码能够正确调用C语言代码。加上extern &amp;ldquo;C&amp;quot;后，会指示编译器这部分代码按C语言的进行编译。c++中定义了__cplusplus，C语言中没有该定义。  #ifdef __cplusplus extern &amp;#34;C&amp;#34; { #endif  void *memset(void* ,int , size_t); #ifdef __cplusplus } #endif 2. extern &amp;ldquo;FORTRAN&amp;rdquo;  待补充  </description>
-    </item>
     
     <item>
       <title>14_最长公共前缀</title>

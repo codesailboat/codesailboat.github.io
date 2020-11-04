@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soource Insight 4 on Welcome to My Blog!</title>
+    <link>https://codesailboat.github.io/tags/soource-insight-4/</link>
+    <description>Recent content in Soource Insight 4 on Welcome to My Blog!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://codesailboat.github.io/tags/soource-insight-4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Source_Insight_4</title>
+      <link>https://codesailboat.github.io/study/source_insight_4/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://codesailboat.github.io/study/source_insight_4/</guid>
+      <description>Source insight 4学习记录 1.设置  浅绿背景颜色 RGB: 199 237 204  2.快捷键  高亮当前页面中光标所在单词：F8 上一次光标的位置：Alt+, 后一次光标的位置:Alt+. 参考：https://www.cnblogs.com/jonwei/articles/9594081.  3.使用   Add all 和 Add Tree 的区别
+ Add all ：添加文件目录下顶层文件，不包含子文件夹下的内容。 Add Tree ：添加文件夹下的顶层文件，且递归添加所有子文件夹下的代码文件。简言之添加所有文件。    </description>
+    </item>
+    
+  </channel>
+</rss>
